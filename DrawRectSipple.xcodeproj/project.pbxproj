@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		770E5D7D1DD1D2270089AFCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E5D7C1DD1D2270089AFCA /* AppDelegate.m */; };
+		770E5D801DD1D2270089AFCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E5D7F1DD1D2270089AFCA /* main.m */; };
+		770E5D831DD1D2270089AFCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E5D821DD1D2270089AFCA /* ViewController.m */; };
+		770E5D851DD1D2270089AFCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 770E5D841DD1D2270089AFCA /* Assets.xcassets */; };
+		770E5D881DD1D2270089AFCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 770E5D861DD1D2270089AFCA /* Main.storyboard */; };
+		770E5D931DD1D2270089AFCA /* DrawRectSippleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E5D921DD1D2270089AFCA /* DrawRectSippleTests.m */; };
+		770E5D9E1DD1D2270089AFCA /* DrawRectSippleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E5D9D1DD1D2270089AFCA /* DrawRectSippleUITests.m */; };
+		770E5DAD1DD1D2C00089AFCA /* MyQuartzView.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E5DAC1DD1D2C00089AFCA /* MyQuartzView.m */; };
+		77F2671B1DDD987900CDEED3 /* PatternColored.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F2671A1DDD987900CDEED3 /* PatternColored.m */; };
+		77F2671E1DDD99F200CDEED3 /* PatternStencil.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F2671D1DDD99F200CDEED3 /* PatternStencil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		770E5D8F1DD1D2270089AFCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 770E5D701DD1D2260089AFCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 770E5D771DD1D2260089AFCA;
+			remoteInfo = DrawRectSipple;
+		};
+		770E5D9A1DD1D2270089AFCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 770E5D701DD1D2260089AFCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 770E5D771DD1D2260089AFCA;
+			remoteInfo = DrawRectSipple;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		770E5D781DD1D2270089AFCA /* DrawRectSipple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawRectSipple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		770E5D7B1DD1D2270089AFCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		770E5D7C1DD1D2270089AFCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		770E5D7F1DD1D2270089AFCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		770E5D811DD1D2270089AFCA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		770E5D821DD1D2270089AFCA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		770E5D841DD1D2270089AFCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		770E5D871DD1D2270089AFCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		770E5D891DD1D2270089AFCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		770E5D8E1DD1D2270089AFCA /* DrawRectSippleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawRectSippleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		770E5D921DD1D2270089AFCA /* DrawRectSippleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawRectSippleTests.m; sourceTree = "<group>"; };
+		770E5D941DD1D2270089AFCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		770E5D991DD1D2270089AFCA /* DrawRectSippleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawRectSippleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		770E5D9D1DD1D2270089AFCA /* DrawRectSippleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawRectSippleUITests.m; sourceTree = "<group>"; };
+		770E5D9F1DD1D2270089AFCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		770E5DAB1DD1D2C00089AFCA /* MyQuartzView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyQuartzView.h; sourceTree = "<group>"; };
+		770E5DAC1DD1D2C00089AFCA /* MyQuartzView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyQuartzView.m; sourceTree = "<group>"; };
+		77F267191DDD987900CDEED3 /* PatternColored.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatternColored.h; sourceTree = "<group>"; };
+		77F2671A1DDD987900CDEED3 /* PatternColored.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatternColored.m; sourceTree = "<group>"; };
+		77F2671C1DDD99F200CDEED3 /* PatternStencil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatternStencil.h; sourceTree = "<group>"; };
+		77F2671D1DDD99F200CDEED3 /* PatternStencil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatternStencil.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		770E5D751DD1D2260089AFCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		770E5D8B1DD1D2270089AFCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		770E5D961DD1D2270089AFCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		770E5D6F1DD1D2260089AFCA = {
+			isa = PBXGroup;
+			children = (
+				770E5D7A1DD1D2270089AFCA /* DrawRectSipple */,
+				770E5D911DD1D2270089AFCA /* DrawRectSippleTests */,
+				770E5D9C1DD1D2270089AFCA /* DrawRectSippleUITests */,
+				770E5D791DD1D2270089AFCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		770E5D791DD1D2270089AFCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				770E5D781DD1D2270089AFCA /* DrawRectSipple.app */,
+				770E5D8E1DD1D2270089AFCA /* DrawRectSippleTests.xctest */,
+				770E5D991DD1D2270089AFCA /* DrawRectSippleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		770E5D7A1DD1D2270089AFCA /* DrawRectSipple */ = {
+			isa = PBXGroup;
+			children = (
+				770E5D7B1DD1D2270089AFCA /* AppDelegate.h */,
+				770E5D7C1DD1D2270089AFCA /* AppDelegate.m */,
+				770E5D811DD1D2270089AFCA /* ViewController.h */,
+				770E5D821DD1D2270089AFCA /* ViewController.m */,
+				77F267191DDD987900CDEED3 /* PatternColored.h */,
+				77F2671A1DDD987900CDEED3 /* PatternColored.m */,
+				770E5DAB1DD1D2C00089AFCA /* MyQuartzView.h */,
+				770E5DAC1DD1D2C00089AFCA /* MyQuartzView.m */,
+				77F2671C1DDD99F200CDEED3 /* PatternStencil.h */,
+				77F2671D1DDD99F200CDEED3 /* PatternStencil.m */,
+				770E5D841DD1D2270089AFCA /* Assets.xcassets */,
+				770E5D861DD1D2270089AFCA /* Main.storyboard */,
+				770E5D891DD1D2270089AFCA /* Info.plist */,
+				770E5D7E1DD1D2270089AFCA /* Supporting Files */,
+			);
+			path = DrawRectSipple;
+			sourceTree = "<group>";
+		};
+		770E5D7E1DD1D2270089AFCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				770E5D7F1DD1D2270089AFCA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		770E5D911DD1D2270089AFCA /* DrawRectSippleTests */ = {
+			isa = PBXGroup;
+			children = (
+				770E5D921DD1D2270089AFCA /* DrawRectSippleTests.m */,
+				770E5D941DD1D2270089AFCA /* Info.plist */,
+			);
+			path = DrawRectSippleTests;
+			sourceTree = "<group>";
+		};
+		770E5D9C1DD1D2270089AFCA /* DrawRectSippleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				770E5D9D1DD1D2270089AFCA /* DrawRectSippleUITests.m */,
+				770E5D9F1DD1D2270089AFCA /* Info.plist */,
+			);
+			path = DrawRectSippleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		770E5D771DD1D2260089AFCA /* DrawRectSipple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 770E5DA21DD1D2270089AFCA /* Build configuration list for PBXNativeTarget "DrawRectSipple" */;
+			buildPhases = (
+				770E5D741DD1D2260089AFCA /* Sources */,
+				770E5D751DD1D2260089AFCA /* Frameworks */,
+				770E5D761DD1D2260089AFCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawRectSipple;
+			productName = DrawRectSipple;
+			productReference = 770E5D781DD1D2270089AFCA /* DrawRectSipple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		770E5D8D1DD1D2270089AFCA /* DrawRectSippleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 770E5DA51DD1D2270089AFCA /* Build configuration list for PBXNativeTarget "DrawRectSippleTests" */;
+			buildPhases = (
+				770E5D8A1DD1D2270089AFCA /* Sources */,
+				770E5D8B1DD1D2270089AFCA /* Frameworks */,
+				770E5D8C1DD1D2270089AFCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				770E5D901DD1D2270089AFCA /* PBXTargetDependency */,
+			);
+			name = DrawRectSippleTests;
+			productName = DrawRectSippleTests;
+			productReference = 770E5D8E1DD1D2270089AFCA /* DrawRectSippleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		770E5D981DD1D2270089AFCA /* DrawRectSippleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 770E5DA81DD1D2270089AFCA /* Build configuration list for PBXNativeTarget "DrawRectSippleUITests" */;
+			buildPhases = (
+				770E5D951DD1D2270089AFCA /* Sources */,
+				770E5D961DD1D2270089AFCA /* Frameworks */,
+				770E5D971DD1D2270089AFCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				770E5D9B1DD1D2270089AFCA /* PBXTargetDependency */,
+			);
+			name = DrawRectSippleUITests;
+			productName = DrawRectSippleUITests;
+			productReference = 770E5D991DD1D2270089AFCA /* DrawRectSippleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		770E5D701DD1D2260089AFCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "漫漫";
+				TargetAttributes = {
+					770E5D771DD1D2260089AFCA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YQSV9JS5Z8;
+						ProvisioningStyle = Automatic;
+					};
+					770E5D8D1DD1D2270089AFCA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YQSV9JS5Z8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 770E5D771DD1D2260089AFCA;
+					};
+					770E5D981DD1D2270089AFCA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YQSV9JS5Z8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 770E5D771DD1D2260089AFCA;
+					};
+				};
+			};
+			buildConfigurationList = 770E5D731DD1D2260089AFCA /* Build configuration list for PBXProject "DrawRectSipple" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 770E5D6F1DD1D2260089AFCA;
+			productRefGroup = 770E5D791DD1D2270089AFCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				770E5D771DD1D2260089AFCA /* DrawRectSipple */,
+				770E5D8D1DD1D2270089AFCA /* DrawRectSippleTests */,
+				770E5D981DD1D2270089AFCA /* DrawRectSippleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		770E5D761DD1D2260089AFCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				770E5D851DD1D2270089AFCA /* Assets.xcassets in Resources */,
+				770E5D881DD1D2270089AFCA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		770E5D8C1DD1D2270089AFCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		770E5D971DD1D2270089AFCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		770E5D741DD1D2260089AFCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				770E5D831DD1D2270089AFCA /* ViewController.m in Sources */,
+				770E5DAD1DD1D2C00089AFCA /* MyQuartzView.m in Sources */,
+				770E5D801DD1D2270089AFCA /* main.m in Sources */,
+				770E5D7D1DD1D2270089AFCA /* AppDelegate.m in Sources */,
+				77F2671B1DDD987900CDEED3 /* PatternColored.m in Sources */,
+				77F2671E1DDD99F200CDEED3 /* PatternStencil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		770E5D8A1DD1D2270089AFCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				770E5D931DD1D2270089AFCA /* DrawRectSippleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		770E5D951DD1D2270089AFCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				770E5D9E1DD1D2270089AFCA /* DrawRectSippleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		770E5D901DD1D2270089AFCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 770E5D771DD1D2260089AFCA /* DrawRectSipple */;
+			targetProxy = 770E5D8F1DD1D2270089AFCA /* PBXContainerItemProxy */;
+		};
+		770E5D9B1DD1D2270089AFCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 770E5D771DD1D2260089AFCA /* DrawRectSipple */;
+			targetProxy = 770E5D9A1DD1D2270089AFCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		770E5D861DD1D2270089AFCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				770E5D871DD1D2270089AFCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		770E5DA01DD1D2270089AFCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		770E5DA11DD1D2270089AFCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		770E5DA31DD1D2270089AFCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YQSV9JS5Z8;
+				INFOPLIST_FILE = DrawRectSipple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = miss.liuxinxin.DrawRectSipple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		770E5DA41DD1D2270089AFCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YQSV9JS5Z8;
+				INFOPLIST_FILE = DrawRectSipple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = miss.liuxinxin.DrawRectSipple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		770E5DA61DD1D2270089AFCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YQSV9JS5Z8;
+				INFOPLIST_FILE = DrawRectSippleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = miss.liuxinxin.DrawRectSippleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawRectSipple.app/Contents/MacOS/DrawRectSipple";
+			};
+			name = Debug;
+		};
+		770E5DA71DD1D2270089AFCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YQSV9JS5Z8;
+				INFOPLIST_FILE = DrawRectSippleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = miss.liuxinxin.DrawRectSippleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawRectSipple.app/Contents/MacOS/DrawRectSipple";
+			};
+			name = Release;
+		};
+		770E5DA91DD1D2270089AFCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YQSV9JS5Z8;
+				INFOPLIST_FILE = DrawRectSippleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = miss.liuxinxin.DrawRectSippleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DrawRectSipple;
+			};
+			name = Debug;
+		};
+		770E5DAA1DD1D2270089AFCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YQSV9JS5Z8;
+				INFOPLIST_FILE = DrawRectSippleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = miss.liuxinxin.DrawRectSippleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DrawRectSipple;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		770E5D731DD1D2260089AFCA /* Build configuration list for PBXProject "DrawRectSipple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				770E5DA01DD1D2270089AFCA /* Debug */,
+				770E5DA11DD1D2270089AFCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		770E5DA21DD1D2270089AFCA /* Build configuration list for PBXNativeTarget "DrawRectSipple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				770E5DA31DD1D2270089AFCA /* Debug */,
+				770E5DA41DD1D2270089AFCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		770E5DA51DD1D2270089AFCA /* Build configuration list for PBXNativeTarget "DrawRectSippleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				770E5DA61DD1D2270089AFCA /* Debug */,
+				770E5DA71DD1D2270089AFCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		770E5DA81DD1D2270089AFCA /* Build configuration list for PBXNativeTarget "DrawRectSippleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				770E5DA91DD1D2270089AFCA /* Debug */,
+				770E5DAA1DD1D2270089AFCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 770E5D701DD1D2260089AFCA /* Project object */;
+}
